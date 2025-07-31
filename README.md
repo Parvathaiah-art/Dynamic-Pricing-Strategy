@@ -55,3 +55,21 @@ Dynamic pricing involves automatically adjusting prices in response to market de
 Refer to the example notebooks or scripts in the repository for more details.
 
 ## Project Structure
+Dynamic-Pricing-Strategy/
+│
+├── data/                  # Directory for raw and processed datasets
+│
+├── notebooks/             # Jupyter Notebooks for data analysis, modeling, and reporting
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_evaluation.ipynb
+│
+├── src/                   # Source code (custom functions, modules)
+│   └── utils.py
+│
+├── requirements.txt       # List of project dependencies
+│
+├── README.md              # Project documentation (this file)
+│
+└── .gitignore             # Files and directories to be ignored by Git
